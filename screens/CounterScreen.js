@@ -14,7 +14,7 @@ export default function CounterScreen(){
     }
     return(
         <View>
-            <Button title="Increase" onPress={() => increaseValue()}/>
+            <Button style={styles.Button} title="Increase" onPress={() => increaseValue()}/>
             <Button title="Decrease" onPress={() => decreaseValue()}/>
             <Text style={{textAlign: 'center', paddingTop: 20}}>Current count:</Text>
             <Text style={{textAlign: 'center', paddingTop: 20}}>{num}</Text>
@@ -22,4 +22,12 @@ export default function CounterScreen(){
     )
 }
 
-const styles=StyleSheet.create({})
+const styles = StyleSheet.create({
+    Button: {
+        color: 'black',
+        borderColor: 'blue',
+        backgroundColor: 'pink'
+
+
+    }
+})

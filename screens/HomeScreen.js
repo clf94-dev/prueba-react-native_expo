@@ -13,6 +13,7 @@ export default function HomeScreen({navigation}) {
       <Button title='Go To Images' onPress={() => navigation.navigate('ImageDemo')}/>
       <Button title='Go To Counter' onPress={() => navigation.navigate('CounterScreen')}/>
     <Button title='Go To Colors Demo' onPress={() => navigation.navigate('ColorsScreen')}/>
+    <Button title='Go To Style Button' onPress={() => navigation.navigate('ButtonsScreenStyle')}/>
     </View>
   );
 }
