@@ -15,7 +15,7 @@ export default function ButtonsScreenStyle({navigation}) {
                 <Text style={styles.text2}>TouchableOpacity Style 2</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.buttonBorder }>
-                <Text style={styles.text3}>TouchableOpacity Style 3</Text>
+                <Text style={styles.text3}>Touchable Opacity Style 3</Text>
             </TouchableOpacity>
         </View>
     )
@@ -60,8 +60,9 @@ const styles = StyleSheet.create({
         fontSize:20,
         fontWeight: "bold"
     }, buttonBorder:{
+        width:'50%',
         margin:20, 
-        padding: 30,
+        padding: 20,
         
         borderColor: 'blue',
         borderWidth: 2,
