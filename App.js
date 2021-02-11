@@ -11,6 +11,7 @@ import ButtonsDemo from './screens/ButtonsDemo';
 import SwitchScreen from './screens/SwitchScreen';
 import TextInputScreen from './screens/TextInputScreen';
 import ImageDemo from './screens/ImageDemo'
+import CounterScreen from './screens/CounterScreen'
 
 
 const Stack = createStackNavigator();
@@ -27,6 +28,7 @@ function App() {
         <Stack.Screen name="SwitchDemo" component={SwitchScreen} />
         <Stack.Screen name="TextInputDemo" component={TextInputScreen} />
         <Stack.Screen name="ImageDemo" component={ImageDemo}/>
+        <Stack.Screen name="CounterScreen" component={CounterScreen}/>
       </Stack.Navigator>                     
     </NavigationContainer>
     </SafeAreaProvider>
