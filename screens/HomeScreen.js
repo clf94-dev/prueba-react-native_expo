@@ -12,7 +12,7 @@ export default function HomeScreen({navigation}) {
       <Button title='Go To TextInput' onPress={() => navigation.navigate('TextInputDemo')}/>
       <Button title='Go To Images' onPress={() => navigation.navigate('ImageDemo')}/>
       <Button title='Go To Counter' onPress={() => navigation.navigate('CounterScreen')}/>
-    
+    <Button title='Go To Colors Demo' onPress={() => navigation.navigate('ColorsScreen')}/>
     </View>
   );
 }
