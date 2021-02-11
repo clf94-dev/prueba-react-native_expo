@@ -4,7 +4,7 @@ import {View, Button, TouchableOpacity, Text,StyleSheet} from 'react-native'
 export default function ButtonsScreenStyle({navigation}) {
 
     return(
-        <View>
+        <View style={styles.view}>
             <Text style={styles.Text}>Button element: </Text>
             <Button title="Button" />
             <Text style={styles.Text}>TouchableOpacity element</Text>
@@ -22,6 +22,13 @@ export default function ButtonsScreenStyle({navigation}) {
 }
 
 const styles = StyleSheet.create({
+    view: {
+paddingTop: 40,
+paddingBottom:50,
+margin:10,
+borderWidth:1,
+
+    },
     buttonborder: {
         margin:20, 
         
