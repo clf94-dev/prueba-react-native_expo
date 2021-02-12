@@ -5,7 +5,7 @@ export default function CardImgText(props){
     return(
         <View style={styles.view}>
             <Image style={{width: '30%'}} source={ props.src}/>
-            <View style={{flex: 1, flexDirection: 'column', padding: 20}}>
+            <View style={{flex: 1, flexDirection: 'column', padding: 15}}>
                 <Text style={styles.title}>{props.title}</Text>
                 <Text>{props.text}</Text>
             </View>
