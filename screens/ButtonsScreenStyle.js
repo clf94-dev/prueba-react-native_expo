@@ -27,7 +27,6 @@ paddingTop: 40,
 paddingBottom:50,
 margin:10,
 borderWidth:1,
-
     },
     buttonborder: {
         margin:20, 

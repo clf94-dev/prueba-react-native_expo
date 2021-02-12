@@ -14,6 +14,7 @@ import ImageDemo from './screens/ImageDemo'
 import CounterScreen from './screens/CounterScreen'
 import ColorsScreen from './screens/ColorsScreen'
 import ButtonsScreenStyle from './screens/ButtonsScreenStyle'
+import LayoutDemo from './screens/LayoutDemo'
 
 
 const Stack = createStackNavigator();
@@ -33,6 +34,7 @@ function App() {
         <Stack.Screen name="CounterScreen" component={CounterScreen}/>
         <Stack.Screen name="ColorsScreen" component={ColorsScreen}/>
         <Stack.Screen name="ButtonsScreenStyle" component={ButtonsScreenStyle}/>
+        <Stack.Screen name="LayoutDemo" component={LayoutDemo}/>
       
       </Stack.Navigator>                     
     </NavigationContainer>
